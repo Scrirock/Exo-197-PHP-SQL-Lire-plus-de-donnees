@@ -1,23 +1,21 @@
 body{
-    background: #ffe450;
-    font-family: "Segoe UI", serif;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+
+.sousTitre{
+    font-size: 25px;
+    text-decoration-line: underline;
 }
 
 span{
-    color: seagreen;
-    font-weight: bold;
-    font-size: 18px;
+    color: #ff00c0;
+    font-size: 20px;
 }
 
-p{
-    color: darkgreen;
-    width: 220px;
-    padding-left: 20px;
-}
-
-body{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    font-size: 12px;
+.border{
+    border: 2px solid black;
+    margin: 5px;
+    padding: 10px;
 }
